@@ -1,0 +1,22 @@
+{
+  "name": "kankabakbi",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Bu bir google chrome eklentisidir.",
+  "browser_action": {
+    "default_icon": "Drawable/icon-32.png",
+    "default_popup": "kankalar.html"
+  },
+  "icons": {
+    "16": "Drawable/icon-16.png",
+    "32": "Drawable/icon-32.png",
+    "48": "Drawable/icon-48.png",
+    "128": "Drawable/icon-128.png"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage",
+    "http://aertas.com/"
+  ]
+}

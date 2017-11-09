@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <link href="kankalar.css" rel="stylesheet" text="text/css">
+</head>
+<body>
+
+<div class="main">
+    <div class="panel panel1">
+        <a href="#" id="ayarlarim" class="ico set">Bilgilerim</a>
+        <a href="#" id="kankaekle" class="ico add">Kanka Ekle</a>
+
+        <div class="ifEmpty">Kanka listesi boş</div>
+
+        <!-- <li><a href="#" class="ico arrow">Aslıhan Ayvaz</a><a href="#" class="ico remove">Çıkart</a></li> -->
+        <div class="list friends">
+            <ul></ul>
+        </div>
+
+        <a href="#" class="sendtoall">Herkese Gönder</a>
+
+    </div>
+
+    <div class="panel panel2">
+        <a href="#" id="geridon" class="ico arrow-left">Geri</a>
+
+        <div class="add-form kanka-ekle-formu">
+            <label for="isim">İsim:</label>
+            <input id="isim" name="isim" type="text"/>
+            <label for="eposta">E-posta:</label>
+            <input id="eposta" name="eposta" type="text"/>
+            <button>Ekle</button>
+        </div>
+
+    </div>
+    <div class="panel panel3">
+        <a href="#" id="geridon2" class="ico arrow-left">Geri</a>
+
+        <div class="add-form ayarlarim-formu">
+            <label for="myname">Benim Adım:</label>
+            <input id="myname" name="myname" type="text"/>
+            <label for="myemail">Benim E-postam:</label>
+            <input id="myemail" name="myemail" type="text"/>
+            <button>Kaydet</button>
+        </div>
+
+    </div>
+</div>
+
+<script src="jquery-1.12.3.js"></script>
+<script src="kankalar.js"></script>
+</body>
+</html>
